@@ -12,7 +12,10 @@ const NavBar = () => {
     return (
         <Navbar>
             <NavbarGroup align={Alignment.LEFT}>
-                <Button className={Classes.MINIMAL} icon="application" />
+                <Button className={Classes.MINIMAL} 
+                icon="application" 
+                onClick={}
+                />
                 <NavbarDivider />
                 <Button className={Classes.MINIMAL} icon="home" text="Home" />
                 <Button
